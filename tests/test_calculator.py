@@ -1,6 +1,6 @@
 import pytest
 
-from app.calculator import add, divide, multiply, percentage, power, subtract
+from app.calculator import add, divide, modulo, multiply, percentage, power, subtract
 
 
 def test_add():
@@ -38,3 +38,8 @@ def test_percentage():
 def test_power():
     assert power(1, 0) == 1
     assert power(2, 16) == 65536
+
+
+def test_modulo():
+    assert modulo(2, 5) == 2
+    assert modulo(5, 2) == 1
