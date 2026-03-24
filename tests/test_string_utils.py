@@ -1,4 +1,9 @@
-from app.string_utils import reverse_string, capitalize_words, count_vowels, is_palindrome
+from app.string_utils import (
+    capitalize_words,
+    count_vowels,
+    is_palindrome,
+    reverse_string,
+)
 
 
 def test_reverse_string():
@@ -13,9 +18,9 @@ def test_capitalize_words():
 
 
 def test_count_vowels():
-    assert count_vowels("hello") == 2        # e, o
-    assert count_vowels("aeiou") == 5        # all five vowels
-    assert count_vowels("rhythm") == 0       # no vowels
+    assert count_vowels("hello") == 2  # e, o
+    assert count_vowels("aeiou") == 5  # all five vowels
+    assert count_vowels("rhythm") == 0  # no vowels
 
 
 def test_is_palindrome():

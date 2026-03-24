@@ -2,6 +2,10 @@ def add(a, b):
     return a + b
 
 
+def power(base, exp):
+    return base**exp
+
+
 def subtract(a, b):
     return a - b
 
