@@ -7,3 +7,5 @@ build/
 .env
 .venv/
 venv/
+/bin
+/lib/python3.14/site-packages
